@@ -4,11 +4,11 @@
 
 @layer base{
   body{
-    @apply bg-black md:w-[1140px] mx-auto   text-gray-300 
+    @apply bg-[#19181a] md:w-[1140px] mx-auto  text-white
   
   } 
 }
 
 body{
-  font-family: 'Special Elite', cursive;
+  font-family: 'Philosopher', sans-serif;
 }

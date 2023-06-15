@@ -2,8 +2,8 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className=" mt-10">
-      <div className="flex  justify-between">
+    <nav className=" py-6 md:w-[1140px] uppercase text-base">
+      <div className="md:flex hidden  justify-between">
         <div className="flex space-x-6 items-center">
           <div>Home</div>
           <div>Portfolio</div>
