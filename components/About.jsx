@@ -17,7 +17,7 @@ const About = () => {
           />
         </div>
         <div className="md:w-[600px]  px-10 md:px-0">
-          <p className="tracking-[1px] text-[13px] md:text-left text-center md:mt-32  md:text-lg ">
+          <p className="tracking-[1px] text-[16px] md:text-left text-center md:mt-32  md:text-lg ">
             Hey there, I am Chiboka Emmanuel, an Undergraduate of the University
             of Nigeria, Nsukka. I am a passionate performance-driven Frontend
             Developer who has knowledge on HTML CSS, Javascript and Typescript.
