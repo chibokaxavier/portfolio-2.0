@@ -14,21 +14,9 @@ const Banner = () => {
   });
   return (
     <div className="relative md:h-[100vh] h-[100vh]">
-      {/* <div className="absolute top-0 left-0 -z-50 h-[100vh] md:w-[1140px]  w-full">
-        <Image
-          src="https://images.pexels.com/photos/3885344/pexels-photo-3885344.jpeg?auto=compress&cs=tinysrgb&w=600"
-          fill
-          alt="dd"
-          objectFit="cover"
-          priority
-        />
-      </div> */}
-      <div className="">
-        <Navbar />
-      </div>
 
-      <div className="flex items-center justify-center mt-[100px] text-center">
-        <motion.div className="flex flex-col md:flex-row   items-center justify-between space-x-10 space-y-10 px-4">
+      <div className="flex items-center justify-center text-center">
+        <motion.div className="flex flex-col md:flex-row  mt-36 items-center justify-between space-x-10 space-y-10 px-4">
           <motion.img
             initial={{
               x: -500,
@@ -57,7 +45,7 @@ const Banner = () => {
               scale: 1,
             }}
             transition={{ duration: 1.5 }}
-            className="text-2xl text-gray-200 font-semibold"
+            className="md:text-4xl text-xl text-gray-200 font-semibold"
           >
             {text}{" "}
           </motion.p>
