@@ -6,15 +6,12 @@ import { motion } from "framer-motion";
 
 const Banner = () => {
   const [text, setText] = useTypewriter({
-    words: [
-      "Hi, I’m Chiboka Emmanuel,  A Software Engineer.",
-    ],
+    words: ["Hi, I’m Chiboka Emmanuel,  A Software Engineer."],
     loop: false,
     delaySpeed: 5000,
   });
   return (
     <div className="relative md:h-[100vh] h-[100vh]">
-
       <div className="flex items-center justify-center text-center">
         <motion.div className="flex flex-col md:flex-row  mt-36 items-center justify-between space-x-10 space-y-10 px-4">
           <motion.img
@@ -45,7 +42,7 @@ const Banner = () => {
               scale: 1,
             }}
             transition={{ duration: 1.5 }}
-            className="md:text-4xl text-3xl text-gray-200 font-semibold"
+            className="md:text-4xl text-2xl text-gray-200 font-semibold"
           >
             {text}{" "}
           </motion.p>
