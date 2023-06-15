@@ -4,7 +4,7 @@
 
 @layer base{
   body{
-    @apply bg-black w-[1140px] mx-auto   text-gray-300 
+    @apply bg-black md:w-[1140px] mx-auto   text-gray-300 
   
   } 
 }
