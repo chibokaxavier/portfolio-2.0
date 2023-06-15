@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const Banner = () => {
   const [text, setText] = useTypewriter({
-    words: ["Chiboka Emmanuel Chinemezu.", "a Software Engineer"],
+    words: ["Hi, I’m Chiboka Emmanuel  A Software Engineer.","I offer engineering services such as FrontEnd Web Development & Web Design."],
     loop: true,
     delaySpeed: 2000,
   });
@@ -25,10 +25,10 @@ const Banner = () => {
         <Navbar />
       </div>
 
-      <div className="flex items-center justify-center mt-[200px] text-center">
+      <div className="flex items-center justify-center mt-[100px] text-center">
             <motion.div
               initial={{
-                x: -500,
+                x: 0,
                 opacity: 0,
                 scale: 0.5,
               }}
@@ -38,12 +38,10 @@ const Banner = () => {
                 scale: 1,
               }}
               transition={{ duration: 1.5 }}
-              className="flex flex-col  items-center justify-center space-y-10 px-4"
+              className="flex flex-col md:flex-row   items-center justify-between space-x-10 space-y-10 px-4"
             >
-              <p className="text-5xl font-bold capitalize">
-                Unfold
-              </p>
-              <p className="text-lg">I’m Glenn Chapman Hoyer A Product Designer Based In San Francisco</p>
+             <img src="https://images.pexels.com/photos/12513230/pexels-photo-12513230.jpeg?auto=compress&cs=tinysrgb&w=600" alt=""  className="w-[200px] h-[250px] md:w-[400px] md:h-[500px] rounded-lg"/>
+              <p className="text-lg italic text-gray-200 font-semibold">{text}  </p>
             </motion.div>
           
         
