@@ -6,7 +6,7 @@ const About = () => {
     <div className="h-screen pt-10">
       <div className=" flex flex-col md:flex-row mt-10 justify-between items-center ">
         <div className=" uppercase flex flex-col justify-between space-y-4  ">
-          <p className="md:text-[32px] text-[25px]  tracking-widest text-center font-bold">
+          <p className="md:text-[32px] text-[28px]  tracking-widest text-center font-bold">
             About Me
           </p>
           <img
