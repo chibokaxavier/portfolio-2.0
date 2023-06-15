@@ -31,7 +31,7 @@ const Banner = () => {
             transition={{ duration: 1.5 }}
             src="https://images.pexels.com/photos/12513230/pexels-photo-12513230.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt=""
-            className="w-[200px] h-[250px] md:w-[400px] md:h-[500px] rounded-lg"
+            className="w-[300px] h-[450px] md:w-[400px] md:h-[500px] rounded-lg"
           />
           <motion.p
             initial={{
@@ -45,7 +45,7 @@ const Banner = () => {
               scale: 1,
             }}
             transition={{ duration: 1.5 }}
-            className="md:text-4xl text-xl text-gray-200 font-semibold"
+            className="md:text-4xl text-3xl text-gray-200 font-semibold"
           >
             {text}{" "}
           </motion.p>
