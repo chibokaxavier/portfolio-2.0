@@ -11,9 +11,9 @@ const Banner = () => {
     delaySpeed: 5000,
   });
   return (
-    <div className="relative md:h-[100vh] h-screen">
+    <div className="h-screen">
       <div className="flex items-center justify-center text-center">
-        <motion.div className="flex flex-col md:flex-row  items-center justify-between ">
+        <motion.div className="flex flex-col lg:flex-row mt-20 lg:space-x-10 space-y-8  items-center justify-between ">
           <motion.img
             initial={{
               x: -500,
@@ -29,7 +29,7 @@ const Banner = () => {
             src="https://images.pexels.com/photos/12513230/pexels-photo-12513230.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt=""
             // className="w-[300px] h-[450px] md:w-[400px] md:h-[500px] rounded-lg"
-            className=" w-[70%] md:w-[400px] md:h-[500px] "
+            className="  w-[70%] md:w-[350px] md:h-[450px] lg:w-[400px] lg:h-[500px] xl:w-[500px] xl:h-[600px] rounded-lg "
           />
           <motion.p
             initial={{
@@ -45,9 +45,13 @@ const Banner = () => {
             transition={{ duration: 1.5 }}
             className="flex flex-col space-y-10 text-gray-200"
           >
-            
-            <span className=" text-2xl md:text-5xl uppercase font-bold">{text}</span>
-            <span className="text-xl"> A Creative Freelancer & Software Developer</span>
+            <span className=" text-2xl md:text-5xl uppercase font-bold">
+              {text}
+            </span>
+            <span className="text-xl px-2">
+              {" "}
+              A Creative Freelancer & Software Developer
+            </span>
           </motion.p>
         </motion.div>
       </div>
