@@ -2,18 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-  body{
-    @apply bg-[#19181a]  text-white
-  
-  } 
+@layer base {
+  body {
+    @apply bg-black lg:w-[1140px] mx-auto  text-white;
+  }
 }
 
-body{
-  font-family: 'Roboto Slab', serif;
+body {
+  font-family: "Roboto Slab", serif;
+}
 
-  /* background-image: url(../public/cool-background\ \(3\).png); */
-  object-fit: cover;
-  background-size: cover;
+.banner {
+  background-image: url(../public/bg.jpg);
+  object-fit: contain;
+  background-position: center;
   background-repeat: no-repeat;
 }
+.about-img {
+  background-image: url(../public/bg.jpg);
+object-fit: fill;
+background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
