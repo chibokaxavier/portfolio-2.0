@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="h-screen">
       <div className=" flex flex-col lg:flex-row justify-around   items-center  ">
-        <div className=" uppercase flex flex-col space-y-2 pt-28 lg:pt-0  lg:px-10 ">
+        <div className=" uppercase flex flex-col space-y-2 pt-20 lg:pt-0  lg:px-10 ">
           <p className="md:text-[32px] text-[26px]   tracking-widest text-center   font-bold">
             About Me
           </p>
@@ -15,8 +15,8 @@ const About = () => {
             className="pb-4"
           />
         </div>
-        <div className="md:w-[750px] lg:w-[600px] lg:mt-40  ">
-          <p className="tracking-[1px] text-[18px] sm:text-[20px] md:text-[25px] lg:text-[28px] md:text-left text-center  md:text-lg px-5">
+        <div className="md:w-[600px] lg:w-[600px] lg:mt-40 ">
+          <p className="tracking-[1px] text-[16px] sm:text-[20px] md:text-[30px] lg:text-[28px] md:text-left text-center  md:text-lg px-5">
             Hey there, I am Chiboka Emmanuel, an Undergraduate of the University
             of Nigeria, Nsukka. I am a passionate performance-driven Frontend
             Developer who has knowledge on HTML CSS, Javascript and Typescript.
