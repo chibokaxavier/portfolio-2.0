@@ -3,9 +3,9 @@ import React, { useEffect } from "react";
 const About = () => {
  
   return (
-    <div className="h-screen pt-10 md:pt-0">
-      <div className=" flex flex-col md:flex-row mt-10 justify-between items-center ">
-        <div className=" uppercase flex flex-col justify-between space-y-4  ">
+    <div className="h-screen ">
+      <div className=" flex flex-col md:flex-row justify-between items-center ">
+        <div className=" uppercase flex flex-col justify-between ">
           <p className="md:text-[32px] text-[28px]  tracking-widest text-center font-bold">
             About Me
           </p>
@@ -13,11 +13,11 @@ const About = () => {
             src="https://technext.github.io/unfold/images/divider.png
 "
             alt="/"
-            className="pb-4"
+            className=""
           />
         </div>
-        <div className="md:w-[600px]  px-10 md:px-0">
-          <p className="tracking-[1px] text-[14px] md:text-left text-center md:mt-32  md:text-lg ">
+        <div className="md:w-[600px]">
+          <p className="tracking-[1px] text-[14px] md:text-left text-center  md:text-lg ">
             Hey there, I am Chiboka Emmanuel, an Undergraduate of the University
             of Nigeria, Nsukka. I am a passionate performance-driven Frontend
             Developer who has knowledge on HTML CSS, Javascript and Typescript.

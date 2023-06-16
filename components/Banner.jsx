@@ -6,14 +6,14 @@ import { motion } from "framer-motion";
 
 const Banner = () => {
   const [text, setText] = useTypewriter({
-    words: ["Hi, I’m Chiboka Emmanuel,  A Software Engineer."],
+    words: ["Chiboka Emmanuel .C."],
     loop: false,
     delaySpeed: 5000,
   });
   return (
-    <div className="relative md:h-[100vh] h-[100vh]">
+    <div className="relative md:h-[100vh] h-screen">
       <div className="flex items-center justify-center text-center">
-        <motion.div className="flex flex-col md:flex-row  mt-36 items-center justify-between space-x-10 space-y-10 px-4">
+        <motion.div className="flex flex-col md:flex-row  items-center justify-between">
           <motion.img
             initial={{
               x: -500,
@@ -42,9 +42,11 @@ const Banner = () => {
               scale: 1,
             }}
             transition={{ duration: 1.5 }}
-            className="md:text-4xl text-2xl text-gray-200 font-semibold"
+            className="flex flex-col space-y-10 text-gray-200"
           >
-            {text}{" "}
+            
+            <span className=" text-2xl md:text-5xl uppercase font-bold">{text}</span>
+            <span className="text-xl"> A Creative Freelancer & Software Developer</span>
           </motion.p>
         </motion.div>
       </div>

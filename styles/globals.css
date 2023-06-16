@@ -4,12 +4,16 @@
 
 @layer base{
   body{
-    @apply bg-[#19181a] md:w-[1140px] mx-auto  text-white
+    @apply bg-[#19181a]  text-white
   
   } 
 }
 
 body{
-  font-family: 'Philosopher', sans-serif;
-  background-image: url(../public/cool-background.png);
+  font-family: 'Roboto Slab', serif;
+
+  /* background-image: url(../public/cool-background\ \(3\).png); */
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
