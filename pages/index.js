@@ -2,24 +2,22 @@ import About from "@/components/About";
 import Banner from "@/components/Banner";
 import Navbar from "@/components/Navbar";
 import Services from "@/components/Services";
-import Skills from "@/components/Skills";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <>
-      <div className=''>
+      <div className=" h-[100vh]  snap-y snap-mandatory  overflow-y-auto scrollbar-hide overflow-x-hidden ">
         <Navbar />
-        <section id="home" className="">
+        <section id="home" className="snap-start">
           <Banner />
         </section>
-        <section id="about" className="">
+        <section id="about" className="snap-center">
           <About />
         </section>
-        <section id="services" className="">
-          <Services />
+        <section id="services" className="  snap-start">
+          <Services/>
         </section>
-        <Skills/>
       </div>
     </>
   );
