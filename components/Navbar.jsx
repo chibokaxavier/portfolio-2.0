@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Navbar = () => {
   return (
-    <nav className=" uppercase font-bold text-base sticky top-0 z-20 ">
+    <nav className=" uppercase font-bold text-base py-4 px-4 md:py-8 md:px-8 sticky top-0 z-20 ">
       <div className="md:flex hidden  justify-between ">
         <motion.div
           initial={{

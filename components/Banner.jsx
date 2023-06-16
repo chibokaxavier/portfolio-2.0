@@ -13,7 +13,7 @@ const Banner = () => {
   return (
     <div className="relative md:h-[100vh] h-screen">
       <div className="flex items-center justify-center text-center">
-        <motion.div className="flex flex-col md:flex-row  items-center justify-between">
+        <motion.div className="flex flex-col md:flex-row  items-center justify-between ">
           <motion.img
             initial={{
               x: -500,
@@ -28,7 +28,8 @@ const Banner = () => {
             transition={{ duration: 1.5 }}
             src="https://images.pexels.com/photos/12513230/pexels-photo-12513230.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt=""
-            className="w-[300px] h-[450px] md:w-[400px] md:h-[500px] rounded-lg"
+            // className="w-[300px] h-[450px] md:w-[400px] md:h-[500px] rounded-lg"
+            className=" w-[70%] md:w-[400px] md:h-[500px] "
           />
           <motion.p
             initial={{
