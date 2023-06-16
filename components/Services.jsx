@@ -6,7 +6,7 @@ import LineChart from "./LineChart";
 
 const Services = () => {
   return (
-    <div className=" md:h-[100vh]">
+    <div className=" lg:h-[100vh] h-[180vh] pt-28 px-8">
       <div className="flex flex-col ">
         <p className="font-bold md:text-[32px] text-[28px]  flex justify-center items-center ">
           My Services
