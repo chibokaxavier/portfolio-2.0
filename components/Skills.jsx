@@ -21,8 +21,8 @@ const Skills = () => {
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-20 ">
           {skills.map((skill,i) => (
-            <div className="cursor-pointer hover:grayscale">
-              <Skill skill={skill} key={i} />
+            <div key={skill.id} className="cursor-pointer hover:grayscale">
+              <Skill skill={skill}  />
             </div>
           ))}
         </div>
