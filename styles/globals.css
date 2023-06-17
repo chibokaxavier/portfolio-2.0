@@ -14,15 +14,14 @@ body {
 
 .banner {
   background-image: url(../public/bg.jpg);
-  object-fit: contain;
+  object-fit: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .about-img {
   background-image: url(../public/bg.jpg);
-object-fit: fill;
-background-size: cover;
+  object-fit: fill;
+  background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
 }
-
