@@ -20,7 +20,7 @@ const About = () => {
 
           </div>
           <div className="md:w-[700px] lg:w-[500px] md:pt-9 ">
-          <p className="tracking-[1px] text-[18px] sm:text-[20px] md:text-[33px] md:text-center lg:text-[28px] md:text-left text-center  md:text-lg px-5">
+          <p className="tracking-[1px] text-[18px] sm:text-[20px] md:text-[33px] md:text-center lg:text-[28px]  text-center  md:text-lg px-5">
             Hey there, I am Chiboka Emmanuel, an Undergraduate of the University
             of Nigeria, Nsukka. I am a passionate performance-driven Frontend
             Developer who has knowledge on HTML CSS, Javascript and Typescript.
