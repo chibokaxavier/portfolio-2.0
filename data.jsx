@@ -37,7 +37,7 @@ const skills = [
   {
     id: 8,
     img: "/images/firebase.png",
-    percent: "70%",
+    percent: "75%",
   },
 ];
 export default skills;

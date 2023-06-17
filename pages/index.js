@@ -13,15 +13,17 @@ export default function Home() {
         <section id="home" className="">
           <Banner />
         </section>
-        <section id="about" className="">
-          <About />
-        </section>
-        <section id="services" className="">
-          <Services />
-        </section>
-        <section>
-          <Skills />
-        </section>
+        <div className="lg:border-r lg:border-l border-gray-700">
+          <section id="about" className="">
+            <About />
+          </section>
+          <section id="services" className="">
+            <Services />
+          </section>
+          <section>
+            <Skills />
+          </section>
+        </div>
       </div>
     </>
   );

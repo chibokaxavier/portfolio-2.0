@@ -2,7 +2,7 @@ import React from "react";
 
 const Skill = ({ skill }) => {
   return (
-    <div className="group relative flex cursor-pointer">
+    <div className=" group relative flex cursor-pointer">
       <img
         src={skill.img}
         className="h-24 w-24 md:w-28 md:h-28 rounded-full border border-gray-500  object-cover  xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out"
