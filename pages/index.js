@@ -13,12 +13,12 @@ export default function Home() {
         <section id="home" className="">
           <Banner />
         </section>
-        <section id="about" className="snap-center">
+        {/* <section id="about" className="snap-center">
           <About />
         </section>
         <section id="services" className="  snap-start">
           <Services />
-        </section>
+        </section> */}
       </div>
     </>
   );
