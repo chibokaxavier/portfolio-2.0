@@ -11,15 +11,16 @@
 body {
   font-family: "Roboto Slab", serif;
 }
-
 .banner {
   background-image: url(../public/bg.jpg);
   object-fit: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
+
 .about-img {
   background-image: url(../public/bg.jpg);
+  z-index: 99;
   object-fit: fill;
   background-size: cover;
   background-position: top;
