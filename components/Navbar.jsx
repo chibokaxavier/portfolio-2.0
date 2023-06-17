@@ -45,33 +45,33 @@ const Navbar = () => {
 
       <div className="flex justify-between px-6 md:hidden">
         <motion.div
-          initial={{
-            x: -500,
-            opacity: 0,
-            scale: 0.5,
-          }}
-          animate={{
-            x: 0,
-            opacity: 1,
-            scale: 1,
-          }}
-          transition={{ duration: 1.5 }}
+          // initial={{
+          //   x: -500,
+          //   opacity: 0,
+          //   scale: 0.5,
+          // }}
+          // animate={{
+          //   x: 0,
+          //   opacity: 1,
+          //   scale: 1,
+          // }}
+          // transition={{ duration: 1.5 }}
           className="cursor-pointer"
         >
           my logo
         </motion.div>
         <motion.p
-          initial={{
-            x: 500,
-            opacity: 0,
-            scale: 0.5,
-          }}
-          animate={{
-            x: 0,
-            opacity: 1,
-            scale: 1,
-          }}
-          transition={{ duration: 1.5 }}
+          // initial={{
+          //   x: 500,
+          //   opacity: 0,
+          //   scale: 0.5,
+          // }}
+          // animate={{
+          //   x: 0,
+          //   opacity: 1,
+          //   scale: 1,
+          // }}
+          // transition={{ duration: 1.5 }}
           className="cursor-pointer"
         >
           Menu
