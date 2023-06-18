@@ -10,7 +10,7 @@ const Services = () => {
       <div className="flex flex-col items-center ">
         <div className=" uppercase flex flex-col space-y-2 pt-28 lg:pt-0  lg:px-10 ">
           <p className="md:text-[32px] text-[26px]   tracking-widest text-center   font-bold">
-           My Services
+            My Services
           </p>
           <img
             src="https://technext.github.io/unfold/images/divider.png
