@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import Banner from "@/components/Banner";
+import ContactMe from "@/components/ContactMe";
 import Navbar from "@/components/Navbar";
 import Services from "@/components/Services";
 import Skills from "@/components/Skills";
@@ -22,6 +23,9 @@ export default function Home() {
           </section>
           <section>
             <Skills />
+          </section>
+          <section>
+            <ContactMe/>
           </section>
         </div>
       </div>
