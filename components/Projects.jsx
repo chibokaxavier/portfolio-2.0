@@ -17,10 +17,12 @@ const Projects = () => {
             className="pb-4 w-[100px]"
           />
         </div>
-
-        {projects.map((project) => (
-          <Project Project={project} key={project.id} />
+<div className="">
+{projects.map((project) => (
+          <Project Project={project} key={project.id} className="" />
         ))}
+</div>
+       
       </div>
     </div>
   );

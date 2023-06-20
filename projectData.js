@@ -27,7 +27,7 @@ const projects = [
   },
   {
     id: 3,
-    img: "/images/instagram.jpg",
+    img: "/images/instagram.png",
     desc: "The Instagram clone I built using Next.js is a social media platform resembling Instagram's design and functionality. It allows users to connect with friends, post updates, photos, and videos, receive real-time notifications, and control privacy settings. The clone provides a familiar social media experience with features like events, groups, and marketplace.",
     title: " Instagram-2.0 ",
     technologies: [
