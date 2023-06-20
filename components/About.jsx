@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="">
       <div className=" flex flex-col justify-around   items-center  ">
-        <div className="  uppercase flex flex-col space-y-2 pt-28 lg:pt-0  lg:px-10 ">
+        <div className="items-center text-center  uppercase flex flex-col space-y-2 pt-28 lg:pt-0  lg:px-10 ">
           <p className="md:text-[32px] text-[26px]   tracking-widest text-center   font-bold">
             About Me
           </p>
@@ -12,7 +12,7 @@ const About = () => {
             src="https://technext.github.io/unfold/images/divider.png
 "
             alt="/"
-            className="pb-4"
+            className="pb-4 w-[100px]"
           />
         </div>
         <div className=" flex lg:flex-row flex-col justify-between space-x-5 lg:mt-40 ">

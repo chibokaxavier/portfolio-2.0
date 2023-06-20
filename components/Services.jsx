@@ -8,7 +8,7 @@ const Services = () => {
   return (
     <div className=" lg:h-[100vh] pt-28 px-8">
       <div className="flex flex-col items-center ">
-        <div className=" uppercase flex flex-col space-y-2 pt-28 lg:pt-0  lg:px-10 ">
+        <div className="text-center items-center uppercase flex flex-col space-y-2 pt-28 lg:pt-0  lg:px-10 ">
           <p className="md:text-[32px] text-[26px]   tracking-widest text-center   font-bold">
             My Services
           </p>
@@ -16,7 +16,7 @@ const Services = () => {
             src="https://technext.github.io/unfold/images/divider.png
 "
             alt="/"
-            className="pb-4"
+            className="pb-4 w-[100px]"
           />
         </div>
         <div className="grid lg:grid-cols-2 text-center items-center lg:text-left ">
