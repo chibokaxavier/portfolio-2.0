@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: "Roboto Slab", serif;
+  font-family: 'Inter', sans-serif;
 }
 .banner {
   background-image: url(../public/bg.jpg);
