@@ -11,7 +11,7 @@ const ContactMe = () => {
     formState: { errors },
   } = useForm();
   const onSubmit = (formData) => {
-    window.location.href = `mailto:chibokaxavier@gmail.com?subject='b'&body=Hi Emmanuel, my name is ${formData.name}. ${formData.message} (${formData.email})`;
+    window.location.href = `mailto:chibokaxavier@gmail.com?subject=' '&body=Hi Emmanuel, my name is ${formData.name}. ${formData.message} (${formData.email})`;
   };
   return (
     <div className="pb-20 ">
@@ -47,7 +47,7 @@ const ContactMe = () => {
               <div className="pl-4">
                 <textarea
                   {...register("message")}
-                  className="bg-transparent border-b text-sm  md:text-xl lg:text-2xl py-2 pr-2 outline-none lg:w-[640px] w-[85vw] text-gray-300 capitalize"
+                  className="bg-transparent border-b border-t-0 border-r-0 border-l-0 text-sm  md:text-xl lg:text-2xl py-2 pr-2 outline-none lg:w-[640px] w-[85vw] text-gray-300 capitalize"
                   placeholder="WRITE YOUR MESSAGE"
                   cols="50"
                   rows="10"
