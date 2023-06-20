@@ -1,7 +1,9 @@
 import React from "react";
 import { useForm, SubmitHandler } from "react-hook-form";
+import { mailto } from "mailto-link";
 
 const ContactMe = () => {
+  const email = "chibokaxavier@gmail.com";
   const {
     register,
     handleSubmit,
@@ -11,9 +13,6 @@ const ContactMe = () => {
   const onSubmit = (formData) => {
     window.location.href = `mailto:chibokaxavier@gmail.com?subject='b'&body=Hi Emmanuel, my name is ${formData.name}. ${formData.message} (${formData.email})`;
   };
-// const onSubmit = (formData) => {
-//     console.log(formData);
-//   };
   return (
     <div className="pb-20 ">
       <div className=" flex flex-col">
