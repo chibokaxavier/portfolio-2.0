@@ -2,6 +2,7 @@ import About from "@/components/About";
 import Banner from "@/components/Banner";
 import ContactMe from "@/components/ContactMe";
 import Navbar from "@/components/Navbar";
+import Projects from "@/components/Projects";
 import Services from "@/components/Services";
 import Skills from "@/components/Skills";
 import Image from "next/image";
@@ -23,6 +24,9 @@ export default function Home() {
           </section>
           <section>
             <Skills />
+          </section>
+          <section>
+            <Projects/>
           </section>
           <section>
             <ContactMe/>
