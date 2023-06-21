@@ -14,18 +14,18 @@ const ContactMe = () => {
     window.location.href = `mailto:chibokaxavier@gmail.com?subject=' '&body=Hi Emmanuel, my name is ${formData.name}. ${formData.message} (${formData.email})`;
   };
   return (
-    <div className="pb-20 ">
+    <div className="pb-20 px-4">
       <div className=" flex flex-col">
-        <div className=" items-center text-center pb-20  uppercase flex flex-col space-y-2 pt-28 lg:pt-0  lg:px-10 ">
-          <p className="md:text-[32px] text-[26px]   tracking-widest text-center   font-bold">
+        <div className=" items-end text-right pb-20  uppercase flex flex-col space-y-2 pt-28 lg:pt-0  lg:px-10">
+          <p className="md:text-[8rem] text-[4.5rem]  header  tracking-widest text-right   font-bold">
             get in touch
           </p>
-          <img
+          {/* <img
             src="https://technext.github.io/unfold/images/divider.png
 "
             alt="/"
             className="pb-4 w-[100px]"
-          />
+          /> */}
         </div>
         <form action="" onSubmit={handleSubmit(onSubmit)}>
           <div className="lg:flex lg:space-x-20">

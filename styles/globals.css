@@ -9,7 +9,14 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Antonio', sans-serif;
+  color:  rgb(170, 170, 170);;
+}
+.span{
+  font-family: 'Antonio', sans-serif;
+}
+.header{
+  color: rgba(149, 149, 149, 0.2);
 }
 .banner {
   background-image: url(../public/bg.jpg);
