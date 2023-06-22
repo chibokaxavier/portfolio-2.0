@@ -3,17 +3,17 @@ import React, { useEffect } from "react";
 const About = () => {
   return (
     <div className=" flex flex-col justify-around">
-      <p className="md:text-[8rem] text-[4.5rem] header  tracking-widest text-right   font-bold">
-          About
-        </p>
+      <p className="md:text-[8rem] text-[3.5rem] header  tracking-widest text-right   font-bold">
+        ABOUT
+      </p>
       {/* <div className="items-end text-left justify-end  uppercase flex flex-col space-y-2 pt-28 lg:pt-0  lg:px-10 ">
         <p className="md:text-[8rem] text-[4.5rem]  header  tracking-widest text-right   font-bold">
           About
         </p>
       </div> */}
       <div className=" flex lg:flex-row flex-col justify-between space-x-5 items-center ">
-        {/* <div className="relative">
-          <div className="  z-50 about-img  relative  lg:w-[500px] h-[500px]"></div>
+        <div className="relative">
+          <div className="  z-50 about-img  relative min-w-[400px] md:min-w-[600px]  lg:w-[500px] h-[500px]"></div>
           <div className="absolute lg:bottom-0 top-[330px] right-3">
             <img
               className="z-10"
@@ -21,7 +21,7 @@ const About = () => {
               alt=""
             />
           </div>
-        </div> */}
+        </div>
 
         <div className="md:w-[700px] lg:w-[500px] md:pt-20 pt-20 flex justify-center items-center">
           <p className="tracking-[1px] text-[18px] sm:text-[20px] md:text-[33px] md:text-center lg:text-[28px] lg:text-left text-center  md:text-lg px-5">

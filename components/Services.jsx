@@ -6,12 +6,12 @@ import LineChart from "./LineChart";
 
 const Services = () => {
   return (
-    <div className=" lg:h-[100vh] pt-28  px-8">
-      <div className="flex flex-col  items-center ">
-        <div className="text-center items-center uppercase flex flex-col space-y-2 pt-28 lg:pt-0  lg:px-10  pl-4">
-          {/* <p className="md:text-[8rem] text-[4.5rem]  header tracking-widest text-left   font-bold">
-           My Services
-          </p> */}
+    <div className=" lg:h-[100vh] pt-28  px-4">
+      <div className="flex flex-col  items-start ">
+        <div className="text-left items-start uppercase flex flex-col space-y-2 pt-28 lg:pt-0  lg:px-10  ">
+          <p className="md:text-[8rem] text-[3.5rem]  header tracking-widest text-left   font-bold">
+            Services
+          </p>
         </div>
         <div className="grid lg:grid-cols-2 text-center items-center lg:text-left ">
           <div className=" px-4 mt-10 flex flex-col text-center justify-center items-center ">
