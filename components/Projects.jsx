@@ -6,8 +6,8 @@ const Projects = () => {
   return (
     <div className="pt-28">
       <div className="flex flex-col items-start">
-           <p className="md:text-[8rem] text-[3.5rem]  header   tracking-widest text-left font-bold">
-            ...PROJECTS
+           <p className="md:text-[8rem] text-[3.5rem]  header pl-4 tracking-widest text-left font-bold">
+            PROJECTS
           </p>
         <div className="">
           {projects.map((project) => (

@@ -34,10 +34,10 @@ export default function Home() {
           <section>
             <ContactMe />
           </section>
-          <section>
-            <Footer />
-          </section>
         </div>
+        <section className="">
+          <Footer />
+        </section>
       </div>
     </>
   );

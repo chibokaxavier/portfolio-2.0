@@ -6,11 +6,6 @@ const About = () => {
       <p className="md:text-[8rem] text-[3.5rem] header  tracking-widest text-right   font-bold">
         ABOUT
       </p>
-      {/* <div className="items-end text-left justify-end  uppercase flex flex-col space-y-2 pt-28 lg:pt-0  lg:px-10 ">
-        <p className="md:text-[8rem] text-[4.5rem]  header  tracking-widest text-right   font-bold">
-          About
-        </p>
-      </div> */}
       <div className=" flex lg:flex-row flex-col justify-between space-x-5 items-center ">
         <div className="relative">
           <div className="  z-50 about-img  relative min-w-[400px] md:min-w-[600px]  lg:w-[500px] h-[500px]"></div>

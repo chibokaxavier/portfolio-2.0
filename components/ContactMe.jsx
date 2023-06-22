@@ -34,20 +34,20 @@ const ContactMe = () => {
                 <input
                   {...register("name")}
                   type="text"
-                  className="bg-transparent border-b text-sm md:text-xl lg:text-2xl py-2 pr-2 lg:mb-0 mb-16 outline-none  w-[85vw] lg:w-[300px] text-gray-300 capitalize"
+                  className="bg-transparent border-b text-sm md:text-xl lg:text-xl py-2 pr-2 lg:mb-0 mb-16 outline-none  w-[85vw] lg:w-[300px] text-gray-300 capitalize"
                   placeholder="NAME"
                 />
                 <input
                   {...register("email")}
                   type="email"
-                  className="bg-transparent border-b text-sm md:text-xl lg:text-2xl py-2 pr-2 outline-none lg:mb-0 mb-5 w-[85vw] lg:w-[300px] text-gray-300 capitalize"
+                  className="bg-transparent border-b text-sm md:text-xl lg:text-xl py-2 pr-2 outline-none lg:mb-0 mb-5 w-[85vw] lg:w-[300px] text-gray-300 capitalize transition-all transform ease-in-out duration-300 "
                   placeholder="EMAIL"
                 />
               </div>
               <div className="pl-4">
                 <textarea
                   {...register("message")}
-                  className="bg-transparent border-b border-t-0 border-r-0 border-l-0 text-sm  md:text-xl lg:text-2xl py-2 pr-2 outline-none lg:w-[640px] w-[85vw] text-gray-300 capitalize"
+                  className="bg-transparent border-b border-t-0 border-r-0 border-l-0 text-sm  md:text-xl lg:text-xl py-2 pr-2 outline-none lg:w-[640px] w-[85vw] text-gray-300 capitalize"
                   placeholder="WRITE YOUR MESSAGE"
                   cols="50"
                   rows="10"
@@ -62,7 +62,7 @@ const ContactMe = () => {
                 </button>
               </div>
             </div>
-            <div className="flex flex-col space-y-10 justify-between pt-10 lg:items-start items-center">
+            <div className="flex flex-col space-y-10 justify-between pt-20 lg:items-start items-center">
               <div className="flex justify-center flex-col items-center lg:items-start">
                 <p className="text-gray-400 text-xs ">EMAIL</p>
                 <p className="text-xl">Chibokaxavier@gmail.com</p>
