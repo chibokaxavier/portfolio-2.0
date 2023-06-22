@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import Banner from "@/components/Banner";
 import ContactMe from "@/components/ContactMe";
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import ParticlesBackground from "@/components/ParticlesBackground";
 import Projects from "@/components/Projects";
@@ -13,10 +14,9 @@ export default function Home() {
   return (
     <>
       <div className="">
-       
         <section id="home" className="">
           <Banner />
-          <ParticlesBackground/>
+          <ParticlesBackground />
         </section>
         <div className="lg:border-r lg:border-l border-gray-700">
           <section id="about" className="">
@@ -29,10 +29,13 @@ export default function Home() {
             <Skills />
           </section>
           <section>
-            <Projects/>
+            <Projects />
           </section>
           <section>
-            <ContactMe/>
+            <ContactMe />
+          </section>
+          <section>
+            <Footer />
           </section>
         </div>
       </div>
