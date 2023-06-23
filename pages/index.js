@@ -16,7 +16,6 @@ export default function Home() {
       <div className="">
         <section id="home" className="">
           <Banner />
-          <ParticlesBackground />
         </section>
         <div className="lg:border-r lg:border-l border-gray-700">
           <section id="about" className="">
@@ -25,13 +24,13 @@ export default function Home() {
           <section id="services" className="">
             <Services />
           </section>
-          <section>
+          <section id="skills">
             <Skills />
           </section>
-          <section>
+          <section id="projects">
             <Projects />
           </section>
-          <section>
+          <section id="contact">
             <ContactMe />
           </section>
         </div>

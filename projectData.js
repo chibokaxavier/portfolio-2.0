@@ -1,7 +1,7 @@
 const projects = [
   {
     id: 1,
-    img: "/images/crypto.png",
+    img: "/movie pc.png",
     desc: "i built this crypto website using Next.js and API, it is a dynamic platform that provides real-time information on cryptocurrencies. It offers a clean interface with details about various cryptocurrencies, interactive charts, personalized alerts, and a portfolio management feature. Users can explore, analyze, and manage cryptocurrencies effectively on the site.",
     title: " Crypto-X",
     technologies: [

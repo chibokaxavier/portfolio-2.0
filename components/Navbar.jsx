@@ -1,81 +1,90 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
 const Navbar = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
+  const [nav, setNav] = useState(false);
+  const handleNav = () => {
+    setNav(!nav);
+  };
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+  }, []);
   return (
-    <nav className="uppercase font-bold text-base py-8 sticky top-0 z-20">
+    <nav className={`'uppercase font-bold text-base py-8 sticky top-0 z-20'`}>
       <div className="md:flex hidden  justify-between ">
-        <motion.div
-          // initial={{
-          //   x: -500,
-          //   opacity: 0,
-          //   scale: 0.5,
-          // }}
-          // animate={{
-          //   x: 0,
-          //   opacity: 1,
-          //   scale: 1,
-          // }}
-          // transition={{ duration: 1.5 }}
-          className="flex items-center px-4"
-        >
-          <div>My Logo</div>
+        <motion.div className="flex items-center px-4">
+          <Link href="/">
+            <div>
+              {" "}
+              <img src="../images/Xavy Logo.png" alt="" className="w-[100px]" />
+            </div>
+          </Link>
         </motion.div>
-        <motion.div
-          // initial={{
-          //   x: 500,
-          //   opacity: 0,
-          //   scale: 0.5,
-          // }}
-          // animate={{
-          //   x: 0,
-          //   opacity: 1,
-          //   scale: 1,
-          // }}
-          // transition={{ duration: 1.5 }}
-          className="flex px-4 space-x-6 items-center"
-        >
-          <div>Portfolio</div>
-          <div>About</div>
-          <div>Skills</div>
-          <div>Services</div>
-          <div> Contact</div>
+        <motion.div className="flex px-4 space-x-6 items-center">
+          <Link href="#projects">
+            <div>Portfolio</div>
+          </Link>
+          <Link href="#about">
+            {" "}
+            <div>About</div>{" "}
+          </Link>
+          <Link href="#skills">
+            <div>Skills</div>
+          </Link>
+          <Link href="#services">
+            {" "}
+            <div>Services</div>
+          </Link>
+          <Link href="#contact">
+            {" "}
+            <div> Contact</div>
+          </Link>
         </motion.div>
       </div>
 
-      <div className="flex justify-between px-6 md:hidden">
-        <motion.div
-          // initial={{
-          //   x: -500,
-          //   opacity: 0,
-          //   scale: 0.5,
-          // }}
-          // animate={{
-          //   x: 0,
-          //   opacity: 1,
-          //   scale: 1,
-          // }}
-          // transition={{ duration: 1.5 }}
-          className="cursor-pointer"
-        >
-          my logo
+      <div
+        className={
+          nav
+            ? "md:hidden fixed left-0 top-0 flex flex-col justify-between w-[70%]  h-[100%] ease-in duration-300  z-20 bg-white"
+            : "fixed left-[-100%] top-20 flex flex-col justify-between w-full  h-[70%] ease-in duration-300  z-10 "
+        }
+      >
+        <ul className="w-full p-4 ">
+          <li className="border-b py-6">
+            <Link href="/" onClick={handleNav}>
+              Home
+            </Link>
+          </li>
+          <li className="border-b py-6">
+            <Link href="/account" onClick={handleNav}>
+              Account
+            </Link>
+          </li>
+        </ul>
+      </div>
+
+      <div className="flex items-center justify-between px-6 md:hidden">
+        <motion.div className="cursor-pointer">
+          <Link href="/">
+            <div>
+              {" "}
+              <img src="../images/Xavy Logo.png" alt="" className="w-[80px]" />
+            </div>
+          </Link>
         </motion.div>
-        <motion.p
-          // initial={{
-          //   x: 500,
-          //   opacity: 0,
-          //   scale: 0.5,
-          // }}
-          // animate={{
-          //   x: 0,
-          //   opacity: 1,
-          //   scale: 1,
-          // }}
-          // transition={{ duration: 1.5 }}
-          className="cursor-pointer"
-        >
-          Menu
-        </motion.p>
+        <div onClick={handleNav} className="cursor-pointer">
+          {nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
+        </div>
       </div>
     </nav>
   );
