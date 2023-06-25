@@ -3,12 +3,10 @@ import Banner from "@/components/Banner";
 import ContactMe from "@/components/ContactMe";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
-import ParticlesBackground from "@/components/ParticlesBackground";
 import Projects from "@/components/Projects";
 import Services from "@/components/Services";
 import Skills from "@/components/Skills";
-import Image from "next/image";
-import { useEffect } from "react";
+
 
 export default function Home() {
   return (

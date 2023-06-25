@@ -13,7 +13,7 @@ const Skills = () => {
           </p>
   
         <div className=" flex flex-col items-center justify-center">
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-8 ">
+          <div className="grid gap-8 w-full ">
             {skills.map((skill, i) => (
               <div key={skill.id} className="cursor-pointer hover:grayscale">
                 <Skill skill={skill} />
