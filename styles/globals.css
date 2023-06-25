@@ -4,18 +4,18 @@
 
 @layer base {
   body {
-    @apply bg-black lg:w-[1140px] mx-auto ;
+    @apply bg-black lg:w-[1140px] mx-auto;
   }
 }
 
 body {
-  font-family: 'Antonio', sans-serif;
-  color:  rgb(170, 170, 170);;
+  font-family: "Assistant", sans-serif;
+  color: rgb(170, 170, 170);
 }
-.span{
-  font-family: 'Antonio', sans-serif;
+.span {
+  font-family: "Antonio", sans-serif;
 }
-.header{
+.header {
   color: rgba(149, 149, 149, 0.2);
 }
 .banner {

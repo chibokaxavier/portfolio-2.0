@@ -48,5 +48,11 @@ const skills = [
     percent: "75%",
     name:"Firebase",
   },
+  {
+    id: 9,
+    img: "/images/typescript.png",
+    percent: "75%",
+    name:"Typescript",
+  },
 ];
 export default skills;
