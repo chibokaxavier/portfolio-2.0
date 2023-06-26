@@ -55,21 +55,32 @@ const Navbar = () => {
       <div
         className={
           nav
-            ? "md:hidden fixed left-0 top-0 flex flex-col justify-between w-[70%]  h-[100%] ease-in duration-300  z-20 bg-white"
-            : "fixed left-[-100%] top-20 flex flex-col justify-between w-full  h-[70%] ease-in duration-300  z-10 "
+            ? "md:hidden fixed left-0 top-0 flex flex-col justify-between w-[85%]  h-[100%] ease-in duration-300  z-99 bg-white"
+            : "fixed left-[-100%] top-20 flex flex-col justify-between w-full  h-[70%] ease-in duration-300  z-99 "
         }
       >
-        <ul className="w-full p-4 ">
-          <li className="border-b py-6">
-            <Link href="/" onClick={handleNav}>
-              Home
-            </Link>
-          </li>
-          <li className="border-b py-6">
-            <Link href="/account" onClick={handleNav}>
-              Account
-            </Link>
-          </li>
+        <ul className="w-full p-4  text-black uppercase ">
+        <Link href="/" onClick={handleNav}>
+            <div className="py-4 border-b-2">Home</div>
+          </Link>
+        <Link href="#projects" onClick={handleNav}>
+            <div className="py-4 border-b-2">Portfolio</div>
+          </Link>
+          <Link href="#about" onClick={handleNav}>
+            {" "}
+            <div className="py-4 border-b-2">About</div>{" "}
+          </Link>
+          <Link href="#skills" onClick={handleNav}>
+            <div className="py-4 border-b-2">Skills</div>
+          </Link>
+          <Link href="#services" onClick={handleNav}>
+            {" "}
+            <div className="py-4 border-b-2"> Services</div>
+          </Link>
+          <Link href="#contact" onClick={handleNav}>
+            {" "}
+            <div className="py-4 border-b-2"> Contact</div>
+          </Link>
         </ul>
       </div>
 

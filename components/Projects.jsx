@@ -10,8 +10,8 @@ const Projects = () => {
           PROJECTS
         </p>
         <div className="">
-          {projects.map((project) => (
-            <div className="my-10">
+          {projects.map((project,i) => (
+            <div className="my-10" key={i}>
               {" "}
               <Project Project={project} key={project.id} className="" />
             </div>

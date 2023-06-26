@@ -1,6 +1,20 @@
 import React, { useEffect } from "react";
 
 const About = () => {
+  const onButtonClick = () => {
+    // using Java Script method to get PDF file
+    fetch("Resume.pdf").then((response) => {
+      response.blob().then((blob) => {
+        // Creating new object of PDF file
+        const fileURL = window.URL.createObjectURL(blob);
+        // Setting various property values
+        let alink = document.createElement("a");
+        alink.href = fileURL;
+        alink.download = "Resume.pdf";
+        alink.click();
+      });
+    });
+  };
   return (
     <div className=" flex flex-col justify-around">
       <p className="md:text-[8rem] text-[3.5rem] header  tracking-widest text-right   font-bold">
@@ -33,7 +47,10 @@ const About = () => {
         </div>
       </div>
       <div className="pt-10  flex justify-center items-center">
-        <button className="rounded-full p-4 bg-transparent text-white outline-1 border">
+        <button
+          onClick={onButtonClick}
+          className="rounded-full p-4 bg-transparent text-white outline-1 border"
+        >
           DOWNLOAD MY RESUME
         </button>
       </div>
