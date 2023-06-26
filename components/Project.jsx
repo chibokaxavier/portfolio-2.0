@@ -6,7 +6,7 @@ import React from "react";
 const Project = ({ Project }) => {
   const router = useRouter();
   return (
-    <div className="pt-10 w-[90%] mx-auto items-center text-center">
+    <div className="pt-10 w-[90%] mx-auto items-center text-center ">
       <p className="items-center font-bold flex uppercase text-gray-500 justify-center text-xl">
         {Project.title}
       </p>
