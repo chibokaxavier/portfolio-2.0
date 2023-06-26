@@ -12,8 +12,12 @@ const Banner = () => {
   });
   return (
     <motion.div
-      initial={{
-        y: 0,
+      className="h-screen banner"
+    >
+      <Navbar />
+      <motion.div
+       initial={{
+        y: 500,
         opacity: 0,
         scale: 0.5,
       }}
@@ -22,11 +26,7 @@ const Banner = () => {
         opacity: 1,
         scale: 1,
       }}
-      transition={{ duration: 1 }}
-      className="h-screen banner"
-    >
-      <Navbar />
-      <div className="flex flex-col items-center mt-60 justify-center space-y-10 text-center">
+      transition={{ duration: 2 }} className="flex flex-col items-center mt-60 justify-center space-y-10 text-center">
         <motion.p
           initial={{
             x: 0,
@@ -46,7 +46,7 @@ const Banner = () => {
         <p className="px-4  text-[20px] md:text-[33px] md:w-[600px]">
           I’m Emmanuel Chiboka, A Creative Frontend Web Developer{" "}
         </p>
-      </div>
+      </motion.div>
     </motion.div>
   );
 };
