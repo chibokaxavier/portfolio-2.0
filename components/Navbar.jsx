@@ -60,10 +60,10 @@ const Navbar = () => {
         }
       >
         <ul className="w-full p-4  text-black uppercase ">
-        <Link href="/" onClick={handleNav}>
+          <Link href="/" onClick={handleNav}>
             <div className="py-4 border-b-2">Home</div>
           </Link>
-        <Link href="#projects" onClick={handleNav}>
+          <Link href="#projects" onClick={handleNav}>
             <div className="py-4 border-b-2">Portfolio</div>
           </Link>
           <Link href="#about" onClick={handleNav}>
