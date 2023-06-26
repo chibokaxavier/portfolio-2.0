@@ -11,34 +11,35 @@ const Banner = () => {
     delaySpeed: 6000,
   });
   return (
-    <motion.div
-      className="h-screen banner"
-    >
+    <motion.div className="h-screen banner">
       <Navbar />
       <motion.div
-       initial={{
-        y: 500,
-        opacity: 0,
-        scale: 0.5,
-      }}
-      animate={{
-        y: 0,
-        opacity: 1,
-        scale: 1,
-      }}
-      transition={{ duration: 2 }} className="flex flex-col items-center mt-60 justify-center space-y-10 text-center">
+        //  initial={{
+        //   y: 500,
+        //   opacity: 0,
+        //   scale: 0.5,
+        // }}
+        // animate={{
+        //   y: 0,
+        //   opacity: 1,
+        //   scale: 1,
+        // }}
+        // transition={{ duration: 2 }}
+
+        className="flex flex-col items-center mt-60 justify-center space-y-10 text-center"
+      >
         <motion.p
-          initial={{
-            x: 0,
-            opacity: 0,
-            scale: 0.5,
-          }}
-          animate={{
-            x: 0,
-            opacity: 1,
-            scale: 1,
-          }}
-          transition={{ duration: 10 }}
+          // initial={{
+          //   x: 0,
+          //   opacity: 0,
+          //   scale: 0.5,
+          // }}
+          // animate={{
+          //   x: 0,
+          //   opacity: 1,
+          //   scale: 1,
+          // }}
+          // transition={{ duration: 10 }}
           className="md:text-7xl text-5xl font-black"
         >
           {text}
