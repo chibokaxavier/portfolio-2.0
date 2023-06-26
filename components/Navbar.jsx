@@ -23,13 +23,13 @@ const Navbar = () => {
     <nav className={`'uppercase font-bold text-base py-8 sticky top-0 z-20'`}>
       <div className="md:flex hidden  justify-between ">
         <motion.div
-          initial={{
-            x: -500,
+           initial={{
+            y: 1000,
             opacity: 0,
             scale: 0.5,
           }}
           animate={{
-            x: 0,
+            y: 0,
             opacity: 1,
             scale: 1,
           }}
@@ -43,17 +43,20 @@ const Navbar = () => {
             </div>
           </Link>
         </motion.div>
-        <motion.div   initial={{
-            x: 500,
+        <motion.div
+           initial={{
+            y: 1000,
             opacity: 0,
             scale: 0.5,
           }}
           animate={{
-            x: 0,
+            y: 0,
             opacity: 1,
             scale: 1,
           }}
-          transition={{ duration: 1.5 }} className="flex px-4 space-x-6 items-center">
+          transition={{ duration: 1.5 }}
+          className="flex px-4 space-x-6 items-center"
+        >
           <Link href="#projects">
             <div>Portfolio</div>
           </Link>
@@ -110,12 +113,12 @@ const Navbar = () => {
       <div className="flex items-center justify-between px-6 md:hidden">
         <motion.div
           initial={{
-            x: -500,
+            y: 1000,
             opacity: 0,
             scale: 0.5,
           }}
           animate={{
-            x: 0,
+            y: 0,
             opacity: 1,
             scale: 1,
           }}
@@ -131,12 +134,12 @@ const Navbar = () => {
         </motion.div>
         <motion.div
           initial={{
-            x: 500,
+            y: 1000,
             opacity: 0,
             scale: 0.5,
           }}
           animate={{
-            x: 0,
+            y: 0,
             opacity: 1,
             scale: 1,
           }}
