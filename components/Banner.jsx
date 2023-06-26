@@ -8,7 +8,8 @@ const Banner = () => {
   const [text, setText] = useTypewriter({
     words: ["ManLikeXavy"],
     loop: true,
-    delaySpeed: 6000,
+    typeSpeed:100,
+    delaySpeed: 3000,
   });
   return (
     <motion.div className="h-screen banner">

@@ -122,7 +122,7 @@ const Navbar = () => {
             opacity: 1,
             scale: 1,
           }}
-          transition={{ duration: 3 }}
+          transition={{ duration: 2 }}
           className="cursor-pointer"
         >
           <Link href="/">
@@ -143,7 +143,7 @@ const Navbar = () => {
             opacity: 1,
             scale: 1,
           }}
-          transition={{ duration: 3 }}
+          transition={{ duration: 2 }}
           onClick={handleNav}
           className="cursor-pointer"
         >
