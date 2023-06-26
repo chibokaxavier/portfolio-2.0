@@ -22,7 +22,20 @@ const Navbar = () => {
   return (
     <nav className={`'uppercase font-bold text-base py-8 sticky top-0 z-20'`}>
       <div className="md:flex hidden  justify-between ">
-        <motion.div className="flex items-center px-4">
+        <motion.div
+          initial={{
+            x: -500,
+            opacity: 0,
+            scale: 0.5,
+          }}
+          animate={{
+            x: 0,
+            opacity: 1,
+            scale: 1,
+          }}
+          transition={{ duration: 1.5 }}
+          className="flex items-center px-4"
+        >
           <Link href="/">
             <div>
               {" "}
@@ -30,7 +43,17 @@ const Navbar = () => {
             </div>
           </Link>
         </motion.div>
-        <motion.div className="flex px-4 space-x-6 items-center">
+        <motion.div   initial={{
+            x: 500,
+            opacity: 0,
+            scale: 0.5,
+          }}
+          animate={{
+            x: 0,
+            opacity: 1,
+            scale: 1,
+          }}
+          transition={{ duration: 1.5 }} className="flex px-4 space-x-6 items-center">
           <Link href="#projects">
             <div>Portfolio</div>
           </Link>
@@ -56,7 +79,7 @@ const Navbar = () => {
         className={
           nav
             ? "md:hidden fixed left-0 top-0 flex flex-col justify-between w-[85%]  h-[100%] ease-in duration-300  z-99 bg-white"
-            : "fixed left-[-100%] top-20 flex flex-col justify-between w-full  h-[70%] ease-in duration-300  z-99 "
+            : "fixed left-[-200%] top-20 flex flex-col justify-between w-full  h-[70%] ease-in duration-300  z-99 "
         }
       >
         <ul className="w-full p-4  text-black uppercase ">
@@ -85,7 +108,20 @@ const Navbar = () => {
       </div>
 
       <div className="flex items-center justify-between px-6 md:hidden">
-        <motion.div className="cursor-pointer">
+        <motion.div
+          initial={{
+            x: -500,
+            opacity: 0,
+            scale: 0.5,
+          }}
+          animate={{
+            x: 0,
+            opacity: 1,
+            scale: 1,
+          }}
+          transition={{ duration: 1.5 }}
+          className="cursor-pointer"
+        >
           <Link href="/">
             <div>
               {" "}
@@ -93,9 +129,23 @@ const Navbar = () => {
             </div>
           </Link>
         </motion.div>
-        <div onClick={handleNav} className="cursor-pointer">
+        <motion.div
+          initial={{
+            x: 500,
+            opacity: 0,
+            scale: 0.5,
+          }}
+          animate={{
+            x: 0,
+            opacity: 1,
+            scale: 1,
+          }}
+          transition={{ duration: 1.5 }}
+          onClick={handleNav}
+          className="cursor-pointer"
+        >
           {nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
-        </div>
+        </motion.div>
       </div>
     </nav>
   );
