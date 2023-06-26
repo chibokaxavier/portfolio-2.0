@@ -21,10 +21,10 @@ const Services = () => {
                 Web <br /> Design
               </p>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Similique velit aut harum inventore perferendis totam tempora
-                hic quae excepturi, magnam repellat tenetur aperiam officia et
-                dolorum? Tempore nulla eum tenetur.
+                I specialize in creating tailor-made web designs that align with
+                your unique brand identity and business goals. I work closely
+                with you to understand your vision and develop a visually
+                stunning website that sets you apart from the competition.
               </p>
             </div>
           </div>
@@ -35,10 +35,11 @@ const Services = () => {
                 Web <br /> Development
               </p>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Similique velit aut harum inventore perferendis totam tempora
-                hic quae excepturi, magnam repellat tenetur aperiam officia et
-                dolorum? Tempore nulla eum tenetur.
+                I offer full-stack website development services, creating
+                customized and scalable websites from scratch. I handle
+                everything from conceptualization and design to frontend and
+                backend development, ensuring a seamless and efficient web
+                presence for your business.
               </p>
             </div>
           </div>
@@ -49,10 +50,12 @@ const Services = () => {
                 User <br /> Interface / Design
               </p>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Similique velit aut harum inventore perferendis totam tempora
-                hic quae excepturi, magnam repellat tenetur aperiam officia et
-                dolorum? Tempore nulla eum tenetur.
+                I pay meticulous attention to visual details, ensuring that your
+                website reflects your brand identity. From selecting appropriate
+                colors, fonts, and imagery to designing consistent and
+                aesthetically pleasing user interfaces, I create a cohesive and
+                visually appealing design that resonates with your target
+                audience.
               </p>
             </div>
           </div>
@@ -63,10 +66,11 @@ const Services = () => {
                 User <br /> Experience
               </p>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Similique velit aut harum inventore perferendis totam tempora
-                hic quae excepturi, magnam repellat tenetur aperiam officia et
-                dolorum? Tempore nulla eum tenetur.
+                I focus on creating intuitive and engaging user experiences by
+                carefully crafting the navigation, information architecture, and
+                interactions. By considering user needs and behavior, I create
+                designs that are easy to navigate and effectively communicate
+                your message.
               </p>
             </div>
           </div>
