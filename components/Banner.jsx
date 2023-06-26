@@ -14,18 +14,17 @@ const Banner = () => {
     <motion.div className="h-screen banner">
       <Navbar />
       <motion.div
-        //  initial={{
-        //   y: 500,
-        //   opacity: 0,
-        //   scale: 0.5,
-        // }}
-        // animate={{
-        //   y: 0,
-        //   opacity: 1,
-        //   scale: 1,
-        // }}
-        // transition={{ duration: 2 }}
-
+        initial={{
+          y: 1000,
+          opacity: 0,
+          scale: 0.5,
+        }}
+        animate={{
+          y: 0,
+          opacity: 1,
+          scale: 1,
+        }}
+        transition={{ duration: 3 }}
         className="flex flex-col items-center mt-60 justify-center space-y-10 text-center"
       >
         <motion.p
