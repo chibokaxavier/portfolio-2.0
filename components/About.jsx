@@ -1,6 +1,12 @@
 import React, { useEffect } from "react";
+import { motion } from "framer-motion";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const About = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   const onButtonClick = () => {
     // using Java Script method to get PDF file
     fetch("Resume.pdf").then((response) => {
@@ -17,11 +23,25 @@ const About = () => {
   };
   return (
     <div className=" flex flex-col justify-around">
-      <p className="md:text-[8rem] text-[3.5rem] header  tracking-widest text-right   font-bold">
+      <p
+        data-aos="fade-right"
+        data-aos-offset="200"
+        // data-aos-delay="0"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        className="md:text-[8rem] text-[3.5rem] header  tracking-widest text-right   font-bold"
+      >
         ABOUT
       </p>
       <div className=" flex lg:flex-row flex-col justify-between space-x-5 items-center ">
-        <div className="relative">
+        <div
+          className="relative"
+          data-aos="fade-top"
+          data-aos-offset="200"
+          data-aos-delay="300"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+        >
           <div className="  z-50 about-img  relative min-w-[400px] md:min-w-[600px]  lg:w-[500px] h-[500px]"></div>
           <div className="absolute lg:bottom-0 top-[330px] right-3">
             <img
@@ -33,7 +53,14 @@ const About = () => {
         </div>
 
         <div className="md:w-[700px] lg:w-[500px] md:pt-20 pt-20 flex justify-center items-center">
-          <p className="tracking-[1px] text-[18px] sm:text-[20px] md:text-[33px] md:text-center lg:text-[28px] lg:text-left text-center  md:text-lg px-5">
+          <p
+            data-aos="fade-top"
+            data-aos-offset="200"
+            data-aos-delay="200"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            className="tracking-[1px] text-[18px] sm:text-[20px] md:text-[33px] md:text-center lg:text-[28px] lg:text-left text-center  md:text-lg px-5"
+          >
             Hey there, I am Chiboka Emmanuel, an Undergraduate of the University
             of Nigeria, Nsukka. I am a passionate performance-driven Frontend
             Developer who has knowledge on HTML CSS, Javascript and Typescript.
