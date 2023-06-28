@@ -1,21 +1,38 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Chat from "./Chat";
 import Percentage from "./Percentage";
 import Contact from "./Contact";
 import LineChart from "./LineChart";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Services = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className=" lg:h-[100vh] pt-28  px-4">
       <div className="flex flex-col  items-start ">
         <div className="text-left items-start uppercase flex flex-col space-y-2 pt-28 lg:pt-0  lg:px-10  ">
-          <p className="md:text-[8rem] text-[3.5rem]  header tracking-widest text-left   font-bold">
+          <p
+            data-aos="fade-right"
+            data-aos-offset="100"
+            // data-aos-delay="0"
+            data-aos-duration="500"
+            className="md:text-[8rem] text-[3.5rem]  header tracking-widest text-left   font-bold"
+          >
             Services
           </p>
         </div>
         <div className="grid lg:grid-cols-2 text-center items-center lg:text-left ">
           <div className=" px-4 mt-10 flex flex-col text-center justify-center items-center ">
-            <div className="flex flex-col justify-center items-center ">
+            <div
+              className="flex flex-col justify-center items-center  "
+              data-aos="zoom-in"
+              data-aos-offset="200"
+              data-aos-delay="100"
+              data-aos-duration="2000"
+            >
               <Chat />
               <p className="text-[32px]">
                 Web <br /> Design
@@ -29,7 +46,13 @@ const Services = () => {
             </div>
           </div>
           <div className="  px-4 mt-10 flex flex-col text-center justify-center items-center">
-            <div className="flex flex-col justify-center items-center">
+            <div
+              className="flex flex-col justify-center items-center"
+              data-aos="zoom-in"
+              data-aos-offset="200"
+              data-aos-delay="100"
+              data-aos-duration="2000"
+            >
               <Percentage />
               <p className="text-[32px]">
                 Web <br /> Development
@@ -44,7 +67,13 @@ const Services = () => {
             </div>
           </div>
           <div className="   px-4 mt-10 flex flex-col text-center justify-center items-center ">
-            <div className="flex flex-col justify-center items-center">
+            <div
+              className="flex flex-col justify-center items-center"
+              data-aos="zoom-in"
+              data-aos-offset="200"
+              data-aos-delay="100"
+              data-aos-duration="2000"
+            >
               <Contact />
               <p className="text-[32px]">
                 User <br /> Interface / Design
@@ -60,7 +89,13 @@ const Services = () => {
             </div>
           </div>
           <div className=" px-4 mt-10 flex flex-col text-center justify-center items-center">
-            <div className="flex flex-col justify-center items-center">
+            <div
+              className="flex flex-col justify-center items-center"
+              data-aos="zoom-in"
+              data-aos-offset="200"
+              data-aos-delay="100"
+              data-aos-duration="2000"
+            >
               <LineChart />
               <p className="text-[32px]">
                 User <br /> Experience
