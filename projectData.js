@@ -62,7 +62,7 @@ const projects = [
       "/images/javascript.png",
       "/images/firebase.png",
     ],
-    link: "https://facebook-2-0-sandy.vercel.app/",
+    link: "https://google-eight-beta.vercel.app/",
   },
   {
     id: 6,
