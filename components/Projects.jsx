@@ -12,7 +12,7 @@ const Projects = () => {
     <div className="pt-28">
       <div className="flex flex-col items-start">
         <p
-          data-aos="fade-left"
+          data-aos="fade-right"
           data-aos-offset="100"
           // data-aos-delay="0"
           data-aos-duration="500"

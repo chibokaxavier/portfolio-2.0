@@ -23,7 +23,7 @@ const ContactMe = () => {
         <div className=" items-end text-right pb-20  uppercase flex flex-col space-y-2 pt-28 lg:pt-0  lg:px-10">
           <p
             data-aos="fade-right"
-            data-aos-offset="500"
+            data-aos-offset="200"
             // data-aos-delay="0"
             data-aos-duration="500"
             className="md:text-[8rem] text-[4.5rem]  header  tracking-widest text-right   font-bold"
