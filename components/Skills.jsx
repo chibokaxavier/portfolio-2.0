@@ -30,7 +30,7 @@ const Skills = () => {
                 data-aos="zoom-in"
                 data-aos-offset="200"
                 data-aos-delay="100"
-                data-aos-duration="2000"
+                data-aos-duration="1000"
                 key={skill.id}
                 className="cursor-pointer hover:grayscale"
               >

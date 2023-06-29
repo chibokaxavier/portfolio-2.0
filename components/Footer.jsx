@@ -1,11 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { SocialIcon } from "react-social-icons";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Footer = () => {
-  return <div className="py-10">
-    <div className="flex justify-center">
-    <SocialIcon
+  useEffect(() => {
+    AOS.init();
+  }, []);
+  return (
+    <div
+    
+      className="py-10"
+    >
+      <div className="flex justify-center">
+        <SocialIcon
           url="https://www.instagram.com/manlikexavy/"
           fgColor="gray"
           bgColor="transparent"
@@ -25,8 +33,9 @@ const Footer = () => {
           fgColor="gray"
           bgColor="transparent"
         />
+      </div>
     </div>
-  </div>;
+  );
 };
 
 export default Footer;
