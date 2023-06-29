@@ -23,7 +23,7 @@ const Projects = () => {
         <div className="">
           {projects.map((project, i) => (
             <div
-              data-aos="zoom-out"
+              data-aos="zoom-in"
               data-aos-offset="200"
               data-aos-delay="100"
               data-aos-duration="2000"
