@@ -1,6 +1,7 @@
 import React from "react";
 import { SocialIcon } from "react-social-icons";
 
+
 const Footer = () => {
   return <div className="py-10">
     <div className="flex justify-center">

@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useForm, SubmitHandler } from "react-hook-form";
-import { mailto } from "mailto-link";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const ContactMe = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   const email = "chibokaxavier@gmail.com";
   const {
     register,
@@ -17,17 +21,24 @@ const ContactMe = () => {
     <div className="pb-20 px-4">
       <div className=" flex flex-col">
         <div className=" items-end text-right pb-20  uppercase flex flex-col space-y-2 pt-28 lg:pt-0  lg:px-10">
-          <p className="md:text-[8rem] text-[4.5rem]  header  tracking-widest text-right   font-bold">
+          <p
+            data-aos="fade-right"
+            data-aos-offset="500"
+            // data-aos-delay="0"
+            data-aos-duration="500"
+            className="md:text-[8rem] text-[4.5rem]  header  tracking-widest text-right   font-bold"
+          >
             get in touch
           </p>
-          {/* <img
-            src="https://technext.github.io/unfold/images/divider.png
-"
-            alt="/"
-            className="pb-4 w-[100px]"
-          /> */}
         </div>
-        <form action="" onSubmit={handleSubmit(onSubmit)}>
+        <form
+          data-aos="zoom-in"
+          data-aos-offset="200"
+          data-aos-delay="100"
+          data-aos-duration="2000"
+          action=""
+          onSubmit={handleSubmit(onSubmit)}
+        >
           <div className="lg:flex lg:space-x-20">
             <div>
               <div className="pl-4 lg:space-x-8 pb-8 relative">

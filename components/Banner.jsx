@@ -29,17 +29,6 @@ const Banner = () => {
         className="flex flex-col items-center mt-60 justify-center space-y-10 text-center"
       >
         <motion.p
-          // initial={{
-          //   x: 0,
-          //   opacity: 0,
-          //   scale: 0.5,
-          // }}
-          // animate={{
-          //   x: 0,
-          //   opacity: 1,
-          //   scale: 1,
-          // }}
-          // transition={{ duration: 10 }}
           className="md:text-7xl text-5xl font-black"
         >
           {text}
