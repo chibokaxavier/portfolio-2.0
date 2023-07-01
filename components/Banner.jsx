@@ -8,7 +8,7 @@ const Banner = () => {
   const [text, setText] = useTypewriter({
     words: ["ManLikeXavy"],
     loop: true,
-    typeSpeed:100,
+    typeSpeed: 100,
     delaySpeed: 3000,
   });
   return (
@@ -28,11 +28,7 @@ const Banner = () => {
         transition={{ duration: 3 }}
         className="flex flex-col items-center mt-60 justify-center space-y-10 text-center"
       >
-        <motion.p
-          className="md:text-7xl text-5xl font-black"
-        >
-          {text}
-        </motion.p>
+        <motion.p className="md:text-7xl text-5xl font-black">{text}</motion.p>
         <p className="px-4  text-[20px] md:text-[33px] md:w-[600px]">
           I’m Emmanuel Chiboka, A very Creative Frontend Web Developer{" "}
         </p>

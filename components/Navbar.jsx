@@ -23,7 +23,7 @@ const Navbar = () => {
     <nav className={`'uppercase font-bold text-base py-8 sticky top-0 z-20'`}>
       <div className="md:flex hidden  justify-between ">
         <motion.div
-           initial={{
+          initial={{
             y: 1000,
             opacity: 0,
             scale: 0.5,
@@ -44,7 +44,7 @@ const Navbar = () => {
           </Link>
         </motion.div>
         <motion.div
-           initial={{
+          initial={{
             y: 1000,
             opacity: 0,
             scale: 0.5,

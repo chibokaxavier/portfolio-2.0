@@ -8,10 +8,7 @@ const Footer = () => {
     AOS.init();
   }, []);
   return (
-    <div
-    
-      className="py-10"
-    >
+    <div className="py-10">
       <div className="flex justify-center">
         <SocialIcon
           url="https://www.instagram.com/manlikexavy/"

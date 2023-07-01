@@ -1,4 +1,3 @@
-
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React from "react";
@@ -28,9 +27,7 @@ const Project = ({ Project }) => {
               ))}
             </div>
 
-            <div
-              className="p-2 w-fit transition duration-300 ease-in-out hover:bg-white hover:text-black text-white uppercase border rounded-3xl px-8"
-            >
+            <div className="p-2 w-fit transition duration-300 ease-in-out hover:bg-white hover:text-black text-white uppercase border rounded-3xl px-8">
               Live Site
             </div>
           </div>
