@@ -33,8 +33,8 @@ const About = () => {
       >
         ABOUT
       </p>
-      <div className=" flex lg:flex-row flex-col justify-between space-x-5 items-center ">
-        <div
+      <div className=" flex justify-center items-center ">
+        {/* <div
           className="relative"
           data-aos="fade-top"
           data-aos-offset="200"
@@ -50,16 +50,16 @@ const About = () => {
               alt=""
             />
           </div>
-        </div>
+        </div> */}
 
-        <div className="md:w-[700px] lg:w-[500px] md:pt-20 pt-20 flex justify-center items-center">
+        <div className="md:w-[700px] lg:w-[700px] md:pt-20 pt-20 flex justify-center items-center">
           <p
             data-aos="fade-top"
             data-aos-offset="200"
             data-aos-delay="200"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
-            className="tracking-[1px] text-[18px] sm:text-[20px] md:text-[33px] md:text-center lg:text-[28px] lg:text-left text-center  md:text-lg px-5"
+            className="tracking-[1px] text-[18px] sm:text-[20px] md:text-[33px] md:text-center lg:text-[28px] lg:text-center text-center  md:text-lg px-5"
           >
             Hey there, I am Chiboka Emmanuel, an Undergraduate of the University
             of Nigeria, Nsukka. I am a passionate performance-driven Frontend
