@@ -19,14 +19,14 @@ body {
   color: rgba(149, 149, 149, 0.2);
 }
 .banner {
-  background-image: url(../public/bg.jpg);
+  /* background-image: url(../public/bg.jpg); */
   object-fit: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .about-img {
-  background-image: url(../public/bg.jpg);
+  /* background-image: url(../public/bg.jpg); */
   z-index: 99;
   object-fit: fill;
   background-size: cover;
