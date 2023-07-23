@@ -47,7 +47,6 @@ const projects = [
       "/images/javascript.png",
       "/images/html.png",
       "/images/css.png",
-     
     ],
     link: "https://www.aroneenergy.com/",
   },
