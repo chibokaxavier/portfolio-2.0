@@ -30,7 +30,7 @@ const Banner = () => {
       >
         <motion.p className="md:text-7xl text-5xl font-black">{text}</motion.p>
         <p className="px-4  text-[20px] md:text-[33px] md:w-[600px]">
-          I’m Emmanuel Chiboka, A very Creative Frontend Web Developer{" "}
+         Hi, I’m Emmanuel Chiboka, A Creative Frontend Web Developer{" "}
         </p>
       </motion.div>
     </motion.div>

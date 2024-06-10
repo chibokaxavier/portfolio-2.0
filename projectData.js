@@ -13,23 +13,23 @@ const projects = [
     ],
     link: "https://crypto-x-murex.vercel.app/",
   },
-  {
-    id: 2,
-    img: "/facebook pc.png",
-    desc: "The Facebook clone I built using Next.js is a social media platform resembling Facebook's design and functionality. It allows users to connect with friends, post updates, photos, and videos, receive real-time notifications, and control privacy settings. The clone provides a familiar social media experience with features like events, groups, and marketplace.",
-    title: " Facebook-2.0 ",
-    technologies: [
-      "/images/tailwind.png",
-      "/images/NEXT.png",
-      "/images/firebase.png",
-    ],
-    link: "https://facebook-2-0-sandy.vercel.app/",
-  },
+  // {
+  //   id: 2,
+  //   img: "/facebook pc.png",
+  //   desc: "The Facebook clone I built using Next.js is a social media platform resembling Facebook's design and functionality. It allows users to connect with friends, post updates, photos, and videos, receive real-time notifications, and control privacy settings. The clone provides a familiar social media experience with features like events, groups, and marketplace.",
+  //   title: " Facebook-2.0 ",
+  //   technologies: [
+  //     "/images/tailwind.png",
+  //     "/images/NEXT.png",
+  //     "/images/firebase.png",
+  //   ],
+  //   link: "https://facebook-2-0-sandy.vercel.app/",
+  // },
   {
     id: 3,
     img: "/instagram pc.png",
-    desc: "The Instagram clone I built using Next.js is a social media platform resembling Instagram's design and functionality. It allows users to connect with friends, post updates, photos, and videos, receive real-time notifications, and control privacy settings. The clone provides a familiar social media experience with features like events, groups, and marketplace.",
-    title: " Instagram-2.0 ",
+    desc: " I built using Next.js is a social media platform resembling Instagram's design and functionality. It allows users to connect with friends, post updates, photos, and videos, receive real-time notifications, and control privacy settings. The clone provides a familiar social media experience with features like events, groups, and marketplace.",
+    title: " Instagram ",
     technologies: [
       "/images/tailwind.png",
       "/images/NEXT.png",
@@ -53,8 +53,8 @@ const projects = [
   {
     id: 5,
     img: "/google pc.png",
-    desc: "The Google Site clone I built using Google API replicates the features and design of Google Sites. It integrates with Google services  like the search functionality. Users can leverage Google services seamlessly.",
-    title: " Google Clone",
+    desc: "I built using Google API replicates the features and design of Google Sites. It integrates with Google services  like the search functionality. Users can leverage Google services seamlessly.",
+    title: " Google ",
     technologies: [
       "/images/tailwind.png",
       "/images/NEXT.png",
